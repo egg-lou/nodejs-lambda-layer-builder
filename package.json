@@ -1,0 +1,22 @@
+{
+  "name": "reg-layer",
+  "version": "1.0.0",
+  "description": "Just run ./runner.sh and you should be good to go",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.525.0",
+    "@aws-sdk/lib-dynamodb": "^3.525.0",
+    "argon2": "^0.40.1",
+    "aws-sdk": "^2.1571.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
